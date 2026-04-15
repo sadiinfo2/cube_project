@@ -1,28 +1,29 @@
-@extends('layouts.app', ['title' => 'কিউব লিমিটেড | আমাদের সম্পর্কে'])
+@extends('layouts.app', ['title' => 'Cube Limited | About'])
 
 @section('content')
 <section class="page-banner">
     <div class="container">
-        <h1>আমাদের সম্পর্কে</h1>
-        <p>নির্ভরযোগ্য, আধুনিক এবং উপযোগী ডিজিটাল সমাধান তৈরিতে প্রতিশ্রুতিবদ্ধ।</p>
+        <h1>About Us</h1>
+        <p>প্রযুক্তিনির্ভর সমাধানের মাধ্যমে প্রতিষ্ঠানকে আরও স্মার্ট করা আমাদের লক্ষ্য।</p>
     </div>
 </section>
 
-<section class="section">
-    <div class="container two-col">
+<section class="inner-section">
+    <div class="container two-column">
         <div>
-            <img class="rounded-img" src="{{ asset('assets/images/about.jpg') }}" alt="About Cube Limited">
+            <img class="rounded-img" src="https://picsum.photos/seed/about-cube/900/600" alt="About Cube Limited">
         </div>
-        <div>
-            <h2>কিউব লিমিটেড কী করে?</h2>
+        <div class="text-card">
+            <h2>কিউব লিমিটেড</h2>
             <p>
-                কিউব লিমিটেড ব্যবসা, শিক্ষা প্রতিষ্ঠান, স্বাস্থ্যসেবা ও কর্পোরেট প্রতিষ্ঠানের জন্য
-                ওয়েবসাইট, সফটওয়্যার frontend, ডিজিটাল যোগাযোগ এবং solution presentation তৈরি করে।
-            </p>
-            <p>
-                আমাদের লক্ষ্য হচ্ছে সহজ, মার্জিত, responsive এবং business-focused design তৈরি করা।
+                কিউব লিমিটেড আধুনিক ডিজিটাল সেবা, ওয়েবসাইট, শিক্ষা ব্যবস্থাপনা সফটওয়্যার,
+                হোয়াটসঅ্যাপ যোগাযোগ ব্যবস্থা এবং প্রতিষ্ঠানভিত্তিক স্মার্ট সলিউশন প্রদান করে।
             </p>
         </div>
     </div>
 </section>
+
+<img class="rounded-img" src="https://loremflickr.com/1000/650/office,team,business" alt="About Cube Limited">
+
+@include('partials.review-cta')
 @endsection

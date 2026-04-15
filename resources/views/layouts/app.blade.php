@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title ?? 'কিউব লিমিটেড' }}</title>
-    <meta name="description" content="কিউব লিমিটেড - আধুনিক সফটওয়্যার, ওয়েবসাইট, মেসেজিং ও ডিজিটাল সলিউশন।">
+    <meta name="description" content="কিউব লিমিটেড - স্মার্ট ডিজিটাল সলিউশন।">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 <body>

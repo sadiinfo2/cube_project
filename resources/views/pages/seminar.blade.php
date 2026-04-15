@@ -1,32 +1,44 @@
-@extends('layouts.app', ['title' => 'কিউব লিমিটেড | সেমিনার'])
+@extends('layouts.app', ['title' => 'Cube Limited | Seminar'])
 
 @section('content')
 <section class="page-banner">
     <div class="container">
-        <h1>সেমিনার</h1>
-        <p>ডিজিটাল পরিবর্তন, সফটওয়্যার ব্যবহার এবং আধুনিক কর্পোরেট ওয়েব উপস্থিতি নিয়ে আয়োজন।</p>
+        <h1>Seminar</h1>
+        <p>ডিজিটাল সেবা, শিক্ষা ব্যবস্থাপনা এবং আধুনিক প্রতিষ্ঠানের রূপান্তর নিয়ে আয়োজন।</p>
     </div>
 </section>
 
-<section class="section">
-    <div class="container card-grid">
-        <div class="plain-card">
-            <img src="{{ asset('assets/images/seminar-1.jpg') }}" alt="সেমিনার ১">
-            <h3>ডিজিটাল বিজনেস ট্রান্সফরমেশন</h3>
-            <p>প্রযুক্তির মাধ্যমে ব্যবসা কীভাবে আরো সংগঠিত ও কার্যকর হয়।</p>
+<section class="services-section">
+    <div class="container service-grid">
+        <div class="service-card static-card">
+            <img src="https://picsum.photos/seed/seminar-1/700/450" alt="">
+            <div class="service-card-body">
+                <h3>ডিজিটাল বিজনেস ট্রান্সফরমেশন</h3>
+                <p>প্রতিষ্ঠানকে প্রযুক্তির মাধ্যমে স্মার্ট করার ধাপসমূহ।</p>
+            </div>
         </div>
 
-        <div class="plain-card">
-            <img src="{{ asset('assets/images/seminar-2.jpg') }}" alt="সেমিনার ২">
-            <h3>এডুকেশন ম্যানেজমেন্ট সিস্টেম</h3>
-            <p>শিক্ষা প্রতিষ্ঠানে automation, attendance, এবং reporting-এর ভবিষ্যৎ।</p>
+        <div class="service-card static-card">
+            <img src="https://picsum.photos/seed/seminar-2/700/450" alt="">
+            <div class="service-card-body">
+                <h3>শিক্ষা ব্যবস্থাপনা অটোমেশন</h3>
+                <p>স্কুল-কলেজের ডিজিটাল রূপান্তরের কার্যকর সমাধান।</p>
+            </div>
         </div>
 
-        <div class="plain-card">
-            <img src="{{ asset('assets/images/seminar-3.jpg') }}" alt="সেমিনার ৩">
-            <h3>কর্পোরেট ওয়েবসাইট স্ট্রাটেজি</h3>
-            <p>একটি modern website কীভাবে brand value ও trust বাড়ায়।</p>
+        <div class="service-card static-card">
+            <img src="https://picsum.photos/seed/seminar-3/700/450" alt="">
+            <div class="service-card-body">
+                <h3>কর্পোরেট ওয়েবসাইট স্ট্র্যাটেজি</h3>
+                <p>প্রতিষ্ঠানের অনলাইন উপস্থিতি আরও শক্তিশালী করার উপায়।</p>
+            </div>
         </div>
     </div>
 </section>
+
+<img src="https://loremflickr.com/900/560/seminar,conference,business" alt="">
+<img src="https://loremflickr.com/900/560/workshop,training,classroom" alt="">
+<img src="https://loremflickr.com/900/560/presentation,meeting,audience" alt="">
+
+@include('partials.review-cta')
 @endsection

@@ -3,27 +3,33 @@
         <div>
             <h3>কিউব লিমিটেড</h3>
             <p>
-                আধুনিক ব্যবসা, শিক্ষা প্রতিষ্ঠান ও সেবামূলক প্রতিষ্ঠানের জন্য
-                নির্ভরযোগ্য সফটওয়্যার, ওয়েবসাইট ও যোগাযোগভিত্তিক সমাধান।
+                আধুনিক ওয়েবসাইট, শিক্ষা সফটওয়্যার, ডিজিটাল যোগাযোগ এবং ব্যবসায়িক সলিউশন
+                প্রদানের বিশ্বস্ত অংশীদার।
             </p>
         </div>
 
-        <div>
-            <h4>দ্রুত লিংক</h4>
-            <ul class="footer-links">
-                <li><a href="{{ route('home') }}">হোম</a></li>
-                <li><a href="{{ route('about') }}">আমাদের সম্পর্কে</a></li>
-                <li><a href="{{ route('career') }}">ক্যারিয়ার</a></li>
-                <li><a href="{{ route('seminar') }}">সেমিনার</a></li>
-                <li><a href="{{ route('contact') }}">যোগাযোগ</a></li>
-            </ul>
+        <div class="account-info-box">
+            <h4>Account<br>Information</h4>
+
+            <div class="account-block">
+                <h5>Bkash Merchant Payment</h5>
+                <p>Acc Name: Cube Limited</p>
+                <p>Ac No: 01XXXXXXXXX</p>
+            </div>
+
+            <div class="account-block">
+                <h5>Dutch Bangla Bank</h5>
+                <p>Acc Name: Cube Limited</p>
+                <p>Branch: Banani</p>
+                <p>Ac No: 1031100399154</p>
+            </div>
         </div>
 
         <div>
-            <h4>যোগাযোগ</h4>
-            <p>ইমেইল: info@cubelimited.com</p>
-            <p>মোবাইল: +8801XXXXXXXXX</p>
-            <p>ঠিকানা: ঢাকা, বাংলাদেশ</p>
+            <h4>Quick Contact</h4>
+            <p>Email: info@cubelimited.com</p>
+            <p>Phone: +8801XXXXXXXXX</p>
+            <p>Address: Dhaka, Bangladesh</p>
         </div>
     </div>
 
