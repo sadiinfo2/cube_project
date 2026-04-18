@@ -6,6 +6,7 @@
     <title>{{ $title ?? 'কিউব লিমিটেড' }}</title>
     <meta name="description" content="কিউব লিমিটেড - স্মার্ট ডিজিটাল সলিউশন।">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/digital-health.css') }}">
 </head>
 <body>
     @include('partials.header')
